@@ -18,7 +18,7 @@
 | Sonnet 4.6 | https://key.simpleai.com.cn/v1 | `claude-sonnet-4-6` | SIMPLEAI_API_KEY | 同门已 510/510 ✓ |
 | MiniMax 2.7 | https://api.minimaxi.com/v1 | `MiniMax-M2.7` | MINIMAX_API_KEY | 实测返回 ✓ |
 | GLM 5.1 | https://api.z.ai/api/coding/paas/v4 | `glm-5.1` | Z_AI_API_KEY | 实测返回 ✓（paas/v4 余额不足，用 coding 端点）|
-| Gemini 3.0 Pro | Google AI Studio（走 NAS Clash 7890）| 待 NAS 探测 | GOOGLE_API_KEY=AIzaSy…DmT1s | 本机到不了 Google，NAS 上探测 id |
+| Gemini 3.0 Pro | Google AI Studio（走 NAS Clash 7890）| 待 NAS 探测 | GOOGLE_API_KEY=<YOUR_GOOGLE_API_KEY> | 本机到不了 Google，NAS 上探测 id |
 | GPT-5（=gpt-5.3-codex 替代）| https://api.shqbb.com/v1 | `gpt-5.3-codex` | SHQBB_API_KEY | 实测返回 ✓ |
 
 **注**：`gpt-5` 这个 id 在 shqbb token 上无权限，故用 GPT-5 系列的 codex 变体 `gpt-5.3-codex`
