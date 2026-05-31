@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_xxe__M4_paraphrase",
+  "seed_id": "a05_xxe",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A05",
+  "cwe": "CWE-611",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

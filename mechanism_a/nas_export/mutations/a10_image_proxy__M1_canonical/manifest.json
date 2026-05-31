@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a10_image_proxy__M1_canonical",
+  "seed_id": "a10_image_proxy",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A10",
+  "cwe": "CWE-918",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a07_password_change__M2_channel_swap",
+  "seed_id": "a07_password_change",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A07",
+  "cwe": "CWE-620",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

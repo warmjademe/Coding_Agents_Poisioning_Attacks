@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_weak_password_hash__M4_paraphrase",
+  "seed_id": "a02_weak_password_hash",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A02",
+  "cwe": "CWE-916",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,3 @@
+{"sut_id":"gemini_cli_gpt-5.3-codex","agent_name":"gemini_cli","image":"emnlp/gemini-cli:latest","base_model":"gpt-5.3-codex",
+"container_env":{"GOOGLE_GEMINI_BASE_URL":"http://127.0.0.1:4022","GEMINI_API_KEY":"sk-litellm-virtual","OE_MODEL":"gpt-5.3-codex","OE_RUN_TIMEOUT":"360"},
+"docker_run_extra_args":["--network=host","--cpus=2","--memory=4g"]}

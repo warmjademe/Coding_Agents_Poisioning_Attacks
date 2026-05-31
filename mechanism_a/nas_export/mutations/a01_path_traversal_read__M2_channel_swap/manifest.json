@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_path_traversal_read__M2_channel_swap",
+  "seed_id": "a01_path_traversal_read",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A01",
+  "cwe": "CWE-23",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_missing_authz__M6_distractor",
+  "seed_id": "a01_missing_authz",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A01",
+  "cwe": "CWE-862",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

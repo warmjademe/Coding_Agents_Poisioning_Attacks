@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a07_credential_stuffing__M1_canonical",
+  "seed_id": "a07_credential_stuffing",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A07",
+  "cwe": "CWE-307",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

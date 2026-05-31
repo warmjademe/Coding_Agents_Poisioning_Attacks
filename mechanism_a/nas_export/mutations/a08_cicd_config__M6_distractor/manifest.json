@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_cicd_config__M6_distractor",
+  "seed_id": "a08_cicd_config",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A08",
+  "cwe": "CWE-345",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

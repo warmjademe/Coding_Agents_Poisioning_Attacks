@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_sql_injection__M5_reframe",
+  "seed_id": "a03_sql_injection",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A03",
+  "cwe": "CWE-89",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,3 @@
+{"sut_id":"openhands_glm51","agent_name":"openhands","image":"emnlp/openhands:latest","base_model":"glm-5.1",
+"container_env":{"OE_LITELLM_URL":"https://api.openai-proxy.org/anthropic","OE_LITELLM_KEY":"{host_env:CLOSEAI_API_KEY}","OE_MODEL":"anthropic/glm-5.1","OE_RUN_TIMEOUT":"600","OE_OH_MAX_ITER":"25"},
+"docker_run_extra_args":["--network=host","--cpus=4","--memory=4g"]}

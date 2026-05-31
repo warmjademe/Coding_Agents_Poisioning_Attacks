@@ -1,0 +1,11 @@
+model_list:
+  - model_name: "*"
+    litellm_params:
+      model: hosted_vllm/MiniMax-M2.7
+      api_key: os.environ/MINIMAX_API_KEY
+      api_base: https://api.minimaxi.com/v1
+general_settings:
+  master_key: sk-litellm-virtual
+litellm_settings:
+  drop_params: true
+  set_verbose: false

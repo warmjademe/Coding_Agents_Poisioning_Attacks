@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_ldap_injection__M1_canonical",
+  "seed_id": "a03_ldap_injection",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A03",
+  "cwe": "CWE-90",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,3 @@
+{"sut_id":"openhands_gemini3pro","agent_name":"openhands","image":"emnlp/openhands:latest","base_model":"gemini-3-pro",
+"container_env":{"OE_LITELLM_URL":"http://127.0.0.1:4005","OE_LITELLM_KEY":"sk-litellm-virtual","OE_MODEL":"anthropic/gemini-3-pro","OE_RUN_TIMEOUT":"600","OE_OH_MAX_ITER":"25"},
+"docker_run_extra_args":["--network=host","--cpus=4","--memory=4g"]}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_missing_authz__M2_channel_swap",
+  "seed_id": "a01_missing_authz",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A01",
+  "cwe": "CWE-862",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

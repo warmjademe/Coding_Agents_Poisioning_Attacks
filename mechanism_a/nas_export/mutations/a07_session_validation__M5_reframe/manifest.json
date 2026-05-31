@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a07_session_validation__M5_reframe",
+  "seed_id": "a07_session_validation",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A07",
+  "cwe": "CWE-613",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_insecure_deser__M5_reframe",
+  "seed_id": "a08_insecure_deser",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A08",
+  "cwe": "CWE-502",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

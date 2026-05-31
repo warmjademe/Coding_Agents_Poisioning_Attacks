@@ -1,0 +1,11 @@
+model_list:
+  - model_name: "*"
+    litellm_params:
+      model: openai/gpt-5.3-codex
+      api_base: https://api.shqbb.com/v1
+      api_key: os.environ/SHQBB_API_KEY
+general_settings:
+  master_key: sk-litellm-virtual
+litellm_settings:
+  drop_params: true
+  set_verbose: false

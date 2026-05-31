@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a09_sensitive_in_logs__M5_reframe",
+  "seed_id": "a09_sensitive_in_logs",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A09",
+  "cwe": "CWE-532",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

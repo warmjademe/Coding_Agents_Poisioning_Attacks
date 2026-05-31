@@ -1,0 +1,19 @@
+{
+  "sut_id": "codex_cli_sonnet46",
+  "agent_name": "codex_cli",
+  "image": "emnlp/codex-cli:latest",
+  "base_model": "claude-sonnet-4-6",
+  "container_env": {
+    "OE_CODEX_PROVIDER": "simpleai",
+    "OE_CODEX_BASE_URL": "https://key.simpleai.com.cn/v1",
+    "OE_CODEX_KEY_VAR": "OE_SIMPLEAI_KEY",
+    "OE_SIMPLEAI_KEY": "{host_env:SIMPLEAI_API_KEY}",
+    "OE_MODEL": "claude-sonnet-4-6",
+    "OE_RUN_TIMEOUT": "480"
+  },
+  "docker_run_extra_args": [
+    "--network=host",
+    "--cpus=2",
+    "--memory=4g"
+  ]
+}

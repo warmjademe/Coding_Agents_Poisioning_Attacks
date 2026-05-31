@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_upload_policy__M5_reframe",
+  "seed_id": "a04_upload_policy",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A04",
+  "cwe": "CWE-434",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

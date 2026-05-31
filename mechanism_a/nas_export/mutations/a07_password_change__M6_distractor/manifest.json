@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a07_password_change__M6_distractor",
+  "seed_id": "a07_password_change",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A07",
+  "cwe": "CWE-620",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

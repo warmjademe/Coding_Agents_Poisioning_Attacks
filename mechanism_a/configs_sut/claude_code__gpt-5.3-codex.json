@@ -1,0 +1,18 @@
+{
+  "sut_id": "claude_code_gpt53codex",
+  "agent_name": "claude_code",
+  "image": "emnlp/claude-code:latest",
+  "base_model": "gpt-5.3-codex",
+  "container_env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:4010",
+    "ANTHROPIC_AUTH_TOKEN": "sk-litellm-virtual",
+    "ANTHROPIC_MODEL": "claude-sonnet-4-5",
+    "ANTHROPIC_SMALL_FAST_MODEL": "claude-sonnet-4-5",
+    "OE_RUN_TIMEOUT": "300"
+  },
+  "docker_run_extra_args": [
+    "--network=host",
+    "--cpus=2",
+    "--memory=4g"
+  ]
+}

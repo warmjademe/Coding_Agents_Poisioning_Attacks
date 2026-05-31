@@ -1,0 +1,13 @@
+{
+  "sut_id": "claude_code_glm51",
+  "agent_name": "claude_code",
+  "image": "emnlp/claude-code:latest",
+  "base_model": "glm-5.1",
+  "container_env": {
+    "ANTHROPIC_BASE_URL": "https://api.openai-proxy.org/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "{host_env:CLOSEAI_API_KEY}",
+    "ANTHROPIC_MODEL": "glm-5.1",
+    "OE_RUN_TIMEOUT": "360"
+  },
+  "docker_run_extra_args": ["--network=host", "--cpus=2", "--memory=4g"]
+}

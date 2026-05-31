@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_path_traversal_write__M6_distractor",
+  "seed_id": "a01_path_traversal_write",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A01",
+  "cwe": "CWE-22",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

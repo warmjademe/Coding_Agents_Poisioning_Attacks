@@ -1,0 +1,17 @@
+{
+  "sut_id": "claude_code_sonnet46",
+  "agent_name": "claude_code",
+  "image": "emnlp/claude-code:latest",
+  "base_model": "claude-sonnet-4-6",
+  "container_env": {
+    "ANTHROPIC_BASE_URL": "https://key.simpleai.com.cn",
+    "ANTHROPIC_AUTH_TOKEN": "{host_env:SIMPLEAI_API_KEY}",
+    "ANTHROPIC_MODEL": "claude-sonnet-4-6",
+    "OE_RUN_TIMEOUT": "300"
+  },
+  "docker_run_extra_args": [
+    "--network=host",
+    "--cpus=2",
+    "--memory=4g"
+  ]
+}

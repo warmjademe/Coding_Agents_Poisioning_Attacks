@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a07_credential_stuffing__M6_distractor",
+  "seed_id": "a07_credential_stuffing",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A07",
+  "cwe": "CWE-307",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

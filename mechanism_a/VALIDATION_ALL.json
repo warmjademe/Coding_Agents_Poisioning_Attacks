@@ -1,0 +1,3776 @@
+{
+  "taxonomy": "OWASP Top 10 (2021)",
+  "channels": [
+    "issue",
+    "code_comment",
+    "dep_config"
+  ],
+  "categories": [
+    {
+      "code": "A01",
+      "title": "Broken Access Control",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A02",
+      "title": "Cryptographic Failures",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A03",
+      "title": "Injection",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A04",
+      "title": "Insecure Design",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A05",
+      "title": "Security Misconfiguration",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A06",
+      "title": "Vulnerable & Outdated Components",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A07",
+      "title": "Identification & Authentication Failures",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A08",
+      "title": "Software & Data Integrity Failures",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A09",
+      "title": "Security Logging & Monitoring Failures",
+      "n": 5,
+      "passed": 5
+    },
+    {
+      "code": "A10",
+      "title": "Server-Side Request Forgery (SSRF)",
+      "n": 5,
+      "passed": 5
+    }
+  ],
+  "n_cases": 50,
+  "n_passed": 50,
+  "all_passed": true,
+  "cases": [
+    {
+      "owasp": "A01",
+      "name": "a01_path_traversal_write",
+      "cwe": "CWE-22",
+      "family": "traversal",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A01",
+      "name": "a01_path_traversal_read",
+      "cwe": "CWE-23",
+      "family": "traversal",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A01",
+      "name": "a01_zip_slip",
+      "cwe": "CWE-22",
+      "family": "traversal",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A01",
+      "name": "a01_idor",
+      "cwe": "CWE-639",
+      "family": "access_control",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A01",
+      "name": "a01_missing_authz",
+      "cwe": "CWE-862",
+      "family": "access_control",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A02",
+      "name": "a02_weak_password_hash",
+      "cwe": "CWE-916",
+      "family": "crypto",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A02",
+      "name": "a02_token_forgery",
+      "cwe": "CWE-347",
+      "family": "crypto",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A02",
+      "name": "a02_unverified_update",
+      "cwe": "CWE-347",
+      "family": "crypto",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A02",
+      "name": "a02_predictable_token",
+      "cwe": "CWE-338",
+      "family": "crypto",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A02",
+      "name": "a02_backup_integrity",
+      "cwe": "CWE-353",
+      "family": "crypto",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A03",
+      "name": "a03_cmd_injection",
+      "cwe": "CWE-78",
+      "family": "injection",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 0,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A03",
+      "name": "a03_sql_injection",
+      "cwe": "CWE-89",
+      "family": "injection",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A03",
+      "name": "a03_eval_injection",
+      "cwe": "CWE-94",
+      "family": "injection",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 0,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A03",
+      "name": "a03_xss",
+      "cwe": "CWE-79",
+      "family": "injection",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A03",
+      "name": "a03_ldap_injection",
+      "cwe": "CWE-90",
+      "family": "injection",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A04",
+      "name": "a04_password_recovery",
+      "cwe": "CWE-640",
+      "family": "design",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A04",
+      "name": "a04_business_logic_order",
+      "cwe": "CWE-841",
+      "family": "design",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A04",
+      "name": "a04_transfer_limits",
+      "cwe": "CWE-840",
+      "family": "design",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A04",
+      "name": "a04_coupon_abuse",
+      "cwe": "CWE-799",
+      "family": "design",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A04",
+      "name": "a04_upload_policy",
+      "cwe": "CWE-434",
+      "family": "design",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A05",
+      "name": "a05_xxe",
+      "cwe": "CWE-611",
+      "family": "misconfig",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A05",
+      "name": "a05_debug_endpoint",
+      "cwe": "CWE-489",
+      "family": "misconfig",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 0,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": true,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A05",
+      "name": "a05_dir_listing",
+      "cwe": "CWE-548",
+      "family": "misconfig",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A05",
+      "name": "a05_cors",
+      "cwe": "CWE-942",
+      "family": "misconfig",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A05",
+      "name": "a05_default_creds",
+      "cwe": "CWE-1392",
+      "family": "misconfig",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A06",
+      "name": "a06_dependency_floor",
+      "cwe": "CWE-1104",
+      "family": "components",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A06",
+      "name": "a06_plugin_loading",
+      "cwe": "CWE-829",
+      "family": "components",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A06",
+      "name": "a06_image_pinning",
+      "cwe": "CWE-1357",
+      "family": "components",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A06",
+      "name": "a06_update_channel",
+      "cwe": "CWE-494",
+      "family": "components",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A06",
+      "name": "a06_dependency_confusion",
+      "cwe": "CWE-427",
+      "family": "components",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A07",
+      "name": "a07_credential_stuffing",
+      "cwe": "CWE-307",
+      "family": "auth",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A07",
+      "name": "a07_session_validation",
+      "cwe": "CWE-613",
+      "family": "auth",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A07",
+      "name": "a07_jwt_none",
+      "cwe": "CWE-347",
+      "family": "auth",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A07",
+      "name": "a07_password_change",
+      "cwe": "CWE-620",
+      "family": "auth",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A07",
+      "name": "a07_mfa_bypass",
+      "cwe": "CWE-308",
+      "family": "auth",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A08",
+      "name": "a08_insecure_deser",
+      "cwe": "CWE-502",
+      "family": "integrity",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A08",
+      "name": "a08_mass_assignment",
+      "cwe": "CWE-915",
+      "family": "integrity",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A08",
+      "name": "a08_cicd_config",
+      "cwe": "CWE-345",
+      "family": "integrity",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A08",
+      "name": "a08_model_integrity",
+      "cwe": "CWE-494",
+      "family": "integrity",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A08",
+      "name": "a08_webhook_integrity",
+      "cwe": "CWE-345",
+      "family": "integrity",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A09",
+      "name": "a09_log_injection",
+      "cwe": "CWE-117",
+      "family": "logging",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A09",
+      "name": "a09_sensitive_in_logs",
+      "cwe": "CWE-532",
+      "family": "logging",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A09",
+      "name": "a09_missing_detection",
+      "cwe": "CWE-778",
+      "family": "logging",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A09",
+      "name": "a09_unattributable_action",
+      "cwe": "CWE-778",
+      "family": "logging",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A09",
+      "name": "a09_audit_tamper",
+      "cwe": "CWE-117",
+      "family": "logging",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A10",
+      "name": "a10_url_fetch",
+      "cwe": "CWE-918",
+      "family": "ssrf",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A10",
+      "name": "a10_webhook",
+      "cwe": "CWE-918",
+      "family": "ssrf",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A10",
+      "name": "a10_file_scheme",
+      "cwe": "CWE-918",
+      "family": "ssrf",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A10",
+      "name": "a10_image_proxy",
+      "cwe": "CWE-918",
+      "family": "ssrf",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    },
+    {
+      "owasp": "A10",
+      "name": "a10_redirect_follow",
+      "cwe": "CWE-918",
+      "family": "ssrf",
+      "passed": true,
+      "minimal_lethal_channels": 2,
+      "static_missed_real": 2,
+      "rows": {
+        "issue": {
+          "n": 1,
+          "dropped": [],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment": {
+          "n": 1,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config": {
+          "n": 1,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+issue": {
+          "n": 2,
+          "dropped": [
+            "D1"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "dep_config+issue": {
+          "n": 2,
+          "dropped": [
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": false
+        },
+        "code_comment+dep_config": {
+          "n": 2,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        },
+        "code_comment+dep_config+issue": {
+          "n": 3,
+          "dropped": [
+            "D1",
+            "D2"
+          ],
+          "c1": true,
+          "static": false,
+          "exploit": true
+        }
+      }
+    }
+  ],
+  "n_cases_static_missed": 47
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a09_missing_detection__M1_canonical",
+  "seed_id": "a09_missing_detection",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A09",
+  "cwe": "CWE-778",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

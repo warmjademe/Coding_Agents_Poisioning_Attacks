@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_dependency_floor__M6_distractor",
+  "seed_id": "a06_dependency_floor",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A06",
+  "cwe": "CWE-1104",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

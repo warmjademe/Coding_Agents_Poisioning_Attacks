@@ -1,0 +1,3 @@
+{ "sut_id":"codex_cli_minimax27","agent_name":"codex_cli","image":"emnlp/codex-cli:latest","base_model":"MiniMax-M2.7",
+  "container_env":{ "MINIMAX_API_KEY":"{host_env:MINIMAX_API_KEY}","OE_MODEL":"MiniMax-M2.7","OE_RUN_TIMEOUT":"300" },
+  "docker_run_extra_args":["--network=host","--cpus=2","--memory=4g"] }

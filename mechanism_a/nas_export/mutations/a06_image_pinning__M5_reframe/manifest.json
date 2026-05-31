@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_image_pinning__M5_reframe",
+  "seed_id": "a06_image_pinning",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A06",
+  "cwe": "CWE-1357",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

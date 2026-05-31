@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor cruft
+.DS_Store
+
+# Logs
+*.log
+
+# Runtime / scratch work directories
+*_work/
+jss_poison_work/
+
+# Jupyter
+.ipynb_checkpoints/

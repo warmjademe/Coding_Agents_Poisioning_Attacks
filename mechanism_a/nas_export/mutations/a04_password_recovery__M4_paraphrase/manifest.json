@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_password_recovery__M4_paraphrase",
+  "seed_id": "a04_password_recovery",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A04",
+  "cwe": "CWE-640",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

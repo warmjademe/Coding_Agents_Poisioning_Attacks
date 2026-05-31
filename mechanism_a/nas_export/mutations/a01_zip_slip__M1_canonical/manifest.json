@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_zip_slip__M1_canonical",
+  "seed_id": "a01_zip_slip",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A01",
+  "cwe": "CWE-22",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

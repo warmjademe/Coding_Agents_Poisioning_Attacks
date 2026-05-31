@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_update_channel__M4_paraphrase",
+  "seed_id": "a06_update_channel",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A06",
+  "cwe": "CWE-494",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

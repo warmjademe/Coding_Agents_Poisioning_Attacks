@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_missing_authz__M4_paraphrase",
+  "seed_id": "a01_missing_authz",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A01",
+  "cwe": "CWE-862",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_plugin_loading__M5_reframe",
+  "seed_id": "a06_plugin_loading",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A06",
+  "cwe": "CWE-829",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

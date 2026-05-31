@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_webhook_integrity__M6_distractor",
+  "seed_id": "a08_webhook_integrity",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A08",
+  "cwe": "CWE-345",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

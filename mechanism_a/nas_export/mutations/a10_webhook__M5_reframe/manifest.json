@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a10_webhook__M5_reframe",
+  "seed_id": "a10_webhook",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A10",
+  "cwe": "CWE-918",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

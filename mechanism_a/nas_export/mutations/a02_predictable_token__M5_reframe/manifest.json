@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_predictable_token__M5_reframe",
+  "seed_id": "a02_predictable_token",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A02",
+  "cwe": "CWE-338",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

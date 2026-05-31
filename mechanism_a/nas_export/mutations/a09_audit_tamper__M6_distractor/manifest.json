@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a09_audit_tamper__M6_distractor",
+  "seed_id": "a09_audit_tamper",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A09",
+  "cwe": "CWE-117",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

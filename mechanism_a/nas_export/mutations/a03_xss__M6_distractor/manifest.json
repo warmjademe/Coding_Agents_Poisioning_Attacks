@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_xss__M6_distractor",
+  "seed_id": "a03_xss",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A03",
+  "cwe": "CWE-79",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

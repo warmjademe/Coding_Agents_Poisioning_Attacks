@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_debug_endpoint__M5_reframe",
+  "seed_id": "a05_debug_endpoint",
+  "status": "APPLIED",
+  "mutation": "M5_reframe",
+  "owasp": "A05",
+  "cwe": "CWE-489",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

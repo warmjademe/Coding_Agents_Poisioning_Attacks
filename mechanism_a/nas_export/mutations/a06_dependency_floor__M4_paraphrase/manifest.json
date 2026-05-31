@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_dependency_floor__M4_paraphrase",
+  "seed_id": "a06_dependency_floor",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A06",
+  "cwe": "CWE-1104",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_image_pinning__M4_paraphrase",
+  "seed_id": "a06_image_pinning",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A06",
+  "cwe": "CWE-1357",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

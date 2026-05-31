@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_dependency_confusion__M2_channel_swap",
+  "seed_id": "a06_dependency_confusion",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A06",
+  "cwe": "CWE-427",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

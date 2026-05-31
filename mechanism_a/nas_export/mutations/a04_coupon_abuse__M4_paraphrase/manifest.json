@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_coupon_abuse__M4_paraphrase",
+  "seed_id": "a04_coupon_abuse",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A04",
+  "cwe": "CWE-799",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

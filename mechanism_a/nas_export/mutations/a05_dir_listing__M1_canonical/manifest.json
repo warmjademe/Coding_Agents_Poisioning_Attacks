@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_dir_listing__M1_canonical",
+  "seed_id": "a05_dir_listing",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A05",
+  "cwe": "CWE-548",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

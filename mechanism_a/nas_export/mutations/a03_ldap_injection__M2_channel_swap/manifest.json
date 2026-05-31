@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_ldap_injection__M2_channel_swap",
+  "seed_id": "a03_ldap_injection",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A03",
+  "cwe": "CWE-90",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

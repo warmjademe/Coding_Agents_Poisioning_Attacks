@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_model_integrity__M1_canonical",
+  "seed_id": "a08_model_integrity",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A08",
+  "cwe": "CWE-494",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

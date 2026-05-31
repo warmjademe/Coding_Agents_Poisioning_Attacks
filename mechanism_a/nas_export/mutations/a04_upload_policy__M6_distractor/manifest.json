@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_upload_policy__M6_distractor",
+  "seed_id": "a04_upload_policy",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A04",
+  "cwe": "CWE-434",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

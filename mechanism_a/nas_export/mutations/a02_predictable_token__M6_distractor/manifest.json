@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_predictable_token__M6_distractor",
+  "seed_id": "a02_predictable_token",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A02",
+  "cwe": "CWE-338",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

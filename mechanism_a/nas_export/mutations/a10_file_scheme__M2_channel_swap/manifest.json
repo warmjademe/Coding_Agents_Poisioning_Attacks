@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a10_file_scheme__M2_channel_swap",
+  "seed_id": "a10_file_scheme",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A10",
+  "cwe": "CWE-918",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

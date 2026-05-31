@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_backup_integrity__M3_channel_relocate",
+  "seed_id": "a02_backup_integrity",
+  "status": "APPLIED",
+  "mutation": "M3_channel_relocate",
+  "owasp": "A02",
+  "cwe": "CWE-353",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

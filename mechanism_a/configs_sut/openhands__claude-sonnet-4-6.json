@@ -1,0 +1,3 @@
+{"sut_id":"openhands_sonnet46","agent_name":"openhands","image":"emnlp/openhands:latest","base_model":"claude-sonnet-4-6",
+"container_env":{"OE_LITELLM_URL":"https://key.simpleai.com.cn","OE_LITELLM_KEY":"{host_env:SIMPLEAI_API_KEY}","OE_MODEL":"anthropic/claude-sonnet-4-6","OE_RUN_TIMEOUT":"600","OE_OH_MAX_ITER":"25"},
+"docker_run_extra_args":["--network=host","--cpus=4","--memory=4g"]}

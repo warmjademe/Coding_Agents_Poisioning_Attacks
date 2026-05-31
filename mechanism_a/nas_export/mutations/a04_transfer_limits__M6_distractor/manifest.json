@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_transfer_limits__M6_distractor",
+  "seed_id": "a04_transfer_limits",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A04",
+  "cwe": "CWE-840",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

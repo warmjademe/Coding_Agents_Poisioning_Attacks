@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_cmd_injection__M6_distractor",
+  "seed_id": "a03_cmd_injection",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A03",
+  "cwe": "CWE-78",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

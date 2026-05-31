@@ -1,0 +1,19 @@
+model_list:
+  - model_name: MiniMax-M2.7
+    litellm_params:
+      model: openai/MiniMax-M2.7
+      api_base: https://api.minimaxi.com/v1
+      api_key: os.environ/MINIMAX_API_KEY
+    model_info:
+      mode: chat
+router_settings:
+  model_group_alias:
+    gemini-2.5-pro: MiniMax-M2.7
+    gemini-pro: MiniMax-M2.7
+    gemini-3-pro: MiniMax-M2.7
+general_settings:
+  master_key: sk-litellm-virtual
+litellm_settings:
+  drop_params: true
+  set_verbose: false
+  disable_responses_api: true

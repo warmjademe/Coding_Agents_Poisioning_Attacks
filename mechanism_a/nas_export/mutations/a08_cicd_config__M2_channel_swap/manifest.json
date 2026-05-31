@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_cicd_config__M2_channel_swap",
+  "seed_id": "a08_cicd_config",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A08",
+  "cwe": "CWE-345",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

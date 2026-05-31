@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a06_dependency_floor__M1_canonical",
+  "seed_id": "a06_dependency_floor",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A06",
+  "cwe": "CWE-1104",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

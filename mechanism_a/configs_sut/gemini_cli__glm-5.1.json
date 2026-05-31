@@ -1,0 +1,13 @@
+{
+  "sut_id": "gemini_cli_glm51",
+  "agent_name": "gemini_cli",
+  "image": "emnlp/gemini-cli:latest",
+  "base_model": "glm-5.1",
+  "container_env": {
+    "GOOGLE_GEMINI_BASE_URL": "http://127.0.0.1:4008",
+    "GEMINI_API_KEY": "sk-litellm-virtual",
+    "OE_MODEL": "glm-5.1",
+    "OE_RUN_TIMEOUT": "360"
+  },
+  "docker_run_extra_args": ["--network=host", "--cpus=2", "--memory=4g"]
+}

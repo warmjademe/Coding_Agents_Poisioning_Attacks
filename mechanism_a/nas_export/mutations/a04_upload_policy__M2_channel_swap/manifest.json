@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a04_upload_policy__M2_channel_swap",
+  "seed_id": "a04_upload_policy",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A04",
+  "cwe": "CWE-434",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

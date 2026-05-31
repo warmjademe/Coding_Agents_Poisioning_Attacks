@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_token_forgery__M6_distractor",
+  "seed_id": "a02_token_forgery",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A02",
+  "cwe": "CWE-347",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

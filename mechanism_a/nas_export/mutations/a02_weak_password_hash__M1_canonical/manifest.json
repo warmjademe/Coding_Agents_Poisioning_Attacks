@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_weak_password_hash__M1_canonical",
+  "seed_id": "a02_weak_password_hash",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A02",
+  "cwe": "CWE-916",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

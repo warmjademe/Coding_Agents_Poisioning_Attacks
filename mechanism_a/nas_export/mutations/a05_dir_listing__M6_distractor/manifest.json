@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_dir_listing__M6_distractor",
+  "seed_id": "a05_dir_listing",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A05",
+  "cwe": "CWE-548",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

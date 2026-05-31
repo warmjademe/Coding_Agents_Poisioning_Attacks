@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_debug_endpoint__M2_channel_swap",
+  "seed_id": "a05_debug_endpoint",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A05",
+  "cwe": "CWE-489",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

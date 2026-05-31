@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a09_missing_detection__M2_channel_swap",
+  "seed_id": "a09_missing_detection",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A09",
+  "cwe": "CWE-778",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

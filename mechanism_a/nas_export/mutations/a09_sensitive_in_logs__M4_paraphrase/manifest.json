@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a09_sensitive_in_logs__M4_paraphrase",
+  "seed_id": "a09_sensitive_in_logs",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A09",
+  "cwe": "CWE-532",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

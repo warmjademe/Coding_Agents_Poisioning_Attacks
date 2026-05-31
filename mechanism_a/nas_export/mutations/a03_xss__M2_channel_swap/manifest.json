@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_xss__M2_channel_swap",
+  "seed_id": "a03_xss",
+  "status": "APPLIED",
+  "mutation": "M2_channel_swap",
+  "owasp": "A03",
+  "cwe": "CWE-79",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

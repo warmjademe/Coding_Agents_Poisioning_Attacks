@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a01_idor__M6_distractor",
+  "seed_id": "a01_idor",
+  "status": "APPLIED",
+  "mutation": "M6_distractor",
+  "owasp": "A01",
+  "cwe": "CWE-639",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

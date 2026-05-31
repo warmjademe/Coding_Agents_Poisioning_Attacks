@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a05_cors__M1_canonical",
+  "seed_id": "a05_cors",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A05",
+  "cwe": "CWE-942",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

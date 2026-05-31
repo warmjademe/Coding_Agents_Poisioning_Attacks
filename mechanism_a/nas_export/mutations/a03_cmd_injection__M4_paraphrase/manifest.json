@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a03_cmd_injection__M4_paraphrase",
+  "seed_id": "a03_cmd_injection",
+  "status": "APPLIED",
+  "mutation": "M4_paraphrase",
+  "owasp": "A03",
+  "cwe": "CWE-78",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

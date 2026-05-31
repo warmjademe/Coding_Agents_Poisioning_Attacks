@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a02_predictable_token__M1_canonical",
+  "seed_id": "a02_predictable_token",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A02",
+  "cwe": "CWE-338",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}

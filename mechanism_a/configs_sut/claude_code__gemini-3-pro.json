@@ -1,0 +1,17 @@
+{
+  "sut_id": "claude_code_gemini3pro",
+  "agent_name": "claude_code",
+  "image": "emnlp/claude-code:latest",
+  "base_model": "gemini-3-pro",
+  "container_env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:4005",
+    "ANTHROPIC_AUTH_TOKEN": "sk-litellm-virtual",
+    "ANTHROPIC_MODEL": "gemini-3-pro",
+    "OE_RUN_TIMEOUT": "360"
+  },
+  "docker_run_extra_args": [
+    "--network=host",
+    "--cpus=2",
+    "--memory=4g"
+  ]
+}

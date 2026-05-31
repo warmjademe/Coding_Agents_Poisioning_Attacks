@@ -1,0 +1,15 @@
+{
+  "sut_id": "gemini_cli_gemini25pro",
+  "agent_name": "gemini_cli",
+  "base_model": "gemini-2.5-pro",
+  "image": "emnlp/gemini-cli:latest",
+  "container_env": {
+    "GOOGLE_GEMINI_BASE_URL": "https://generativelanguage.googleapis.com",
+    "GEMINI_API_KEY": "{host_env:GOOGLE_API_KEY}",
+    "HTTPS_PROXY": "http://127.0.0.1:7890", "HTTP_PROXY": "http://127.0.0.1:7890",
+    "https_proxy": "http://127.0.0.1:7890", "http_proxy": "http://127.0.0.1:7890",
+    "NO_PROXY": "127.0.0.1,localhost",
+    "OE_MODEL": "gemini-2.5-pro", "OE_RUN_TIMEOUT": "360"
+  },
+  "docker_run_extra_args": ["--network=host","--cpus=2","--memory=4g"]
+}

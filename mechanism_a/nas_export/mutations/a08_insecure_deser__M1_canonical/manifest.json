@@ -1,0 +1,10 @@
+{
+  "mutation_id": "a08_insecure_deser__M1_canonical",
+  "seed_id": "a08_insecure_deser",
+  "status": "APPLIED",
+  "mutation": "M1_canonical",
+  "owasp": "A08",
+  "cwe": "CWE-502",
+  "module_relpath": "mod.py",
+  "tests_relpath": "tests/test_mod.py"
+}
