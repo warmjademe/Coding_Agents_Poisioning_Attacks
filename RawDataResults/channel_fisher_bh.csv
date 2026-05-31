@@ -1,0 +1,8 @@
+level,group_a,group_b,asr_a,asr_b,odds_ratio,p_raw,na,nb,q_bh,sig_q05
+combination,dep-config|source-comment,mcp|readme,0.3548,0.352,1.0123288057262019,0.8848574168135991,5000,1000,1.0,False
+channel,dep-config,mcp,0.3548,0.352,1.0123288057262019,0.8848574168135991,5000,1000,1.0,False
+channel,dep-config,readme,0.3548,0.352,1.0123288057262019,0.8848574168135991,5000,1000,1.0,False
+channel,dep-config,source-comment,0.3548,0.3548,1.0,1.0,5000,5000,1.0,False
+channel,mcp,readme,0.352,0.352,1.0,1.0,1000,1000,1.0,False
+channel,mcp,source-comment,0.352,0.3548,0.9878213425751945,0.8848574168135991,1000,5000,1.0,False
+channel,readme,source-comment,0.352,0.3548,0.9878213425751945,0.8848574168135991,1000,5000,1.0,False

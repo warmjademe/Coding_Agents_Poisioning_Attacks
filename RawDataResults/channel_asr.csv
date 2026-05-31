@@ -1,0 +1,7 @@
+level,name,label,n,successes,asr,wilson_lo,wilson_hi,metric_type
+channel,dep-config,dependency/config file,5000,1774,0.3548,0.3416543054263616,0.36816863521848303,per_channel_asr
+channel,source-comment,code comment/docstring,5000,1774,0.3548,0.3416543054263616,0.36816863521848303,per_channel_asr
+channel,mcp,MCP tool description,1000,352,0.352,0.32301658754166684,0.3821161329700574,per_channel_asr
+channel,readme,README/contributing doc,1000,352,0.352,0.32301658754166684,0.3821161329700574,per_channel_asr
+combination,dep-config|source-comment,dependency/config file + code comment/docstring,5000,1774,0.3548,0.3416543054263616,0.36816863521848303,per_combination_asr
+combination,mcp|readme,MCP tool description + README/contributing doc,1000,352,0.352,0.32301658754166684,0.3821161329700574,per_combination_asr
